@@ -1,0 +1,384 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+#nav{
+    width:100%;
+    padding:10px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.conteiner{
+    width:95%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.logo{
+    cursor:pointer;
+    border-radius:66.162px;
+}
+
+.header-list{
+    width:25%;
+    display:flex;
+    justify-content:space-between;
+    list-style:none;
+    padding-top:17px;
+}
+
+.header-list>li>a{
+    text-decoration:none;
+    color:#000000;
+    font-size:16px;
+}
+
+.search{
+    width:466px;
+    height:61px;
+    border-radius:13px;
+    background:rgba(237, 237, 237, 0.62);
+    backdrop-filter:blur(60px);
+    color:#7A7A7A;
+    font-family:Plus Jakarta Sans;
+    font-size:20px;
+    font-style:normal;
+    font-weight:300;
+    line-height:normal;
+    padding:10px;
+}
+
+.header-items{
+    width:15%;
+    display:flex;
+    justify-content:space-around;
+}
+
+.items-li{
+    list-style:none;
+    margin-top:5px;
+}
+
+.sectionone{
+    width:100%;
+    padding:30px;
+}
+
+.sectiontwo{
+    width:100%;
+    padding:10px;
+}
+
+.sectiontwo-paragraf{
+    color:#000;
+    font-family:Plus Jakarta Sans;
+    font-size:30px;
+    font-style:normal;
+    font-weight:800;
+    line-height:normal;
+    letter-spacing:6.75px;
+    padding-left:70px;
+}
+
+.sectiontwo-wallpaper{
+    width:95%;
+    margin:0 auto;
+    display:flex;
+    justify-content:space-between;
+}
+
+.mens-collections{
+    width:300px;
+    height:209px;
+    background-image:url("rectangle.png");
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+
+.selected-suitngs{
+    width:300px;
+    height:209px;
+    background-image:url("selected\ suitngs.png");
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+
+.women-collections{
+    width:300px;
+    height:209px;
+    background-image:url("women\ collection.png");
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+
+.women-party-wear{
+    width:300px;
+    height:209px;
+    background-image:url("women\ party\ \ wear.png");
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+
+.sectionthree{
+    width:100%;
+    padding:20px;
+}
+
+.paragraf-sectionthree{
+    color:#000;
+    font-family:Plus Jakarta Sans;
+    font-size:30px;
+    font-style:normal;
+    font-weight:800;
+    line-height:normal;
+    letter-spacing:6.75px;
+    margin-left:55px;
+    padding-top:20px;
+}
+
+.seasonal-designer{
+    width:93%;
+    margin:0 auto;
+    display:flex;
+    justify-content:space-between;
+}
+
+.designer-wallpaper{
+    width:421px;
+}
+
+.frock-wallpaper{
+    width:68%;
+}
+
+.sectionthree-wallpaper{
+    width:100%;
+    display:flex;
+    justify-content:space-between;
+}
+
+.sectionthree-wallpaper-par{
+    width:421px;
+}
+
+.sectionthree-wallpaper-partwo{
+    width:55%;
+}
+
+.sectionthre-picture{
+    width:850px;
+    height:196px;
+    flex-shrink:0;
+    background-image:url("Rectangle\ 19.png");
+    background-size:cover;
+    background-repeat:no-repeat;
+    border-radius:11px;
+    box-shadow:0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin-top:10px;
+    padding:50px;
+    text-align:center;
+}
+
+.sectionthree-h3text{
+    color:#FFF;
+    font-family:Plus Jakarta Sans;
+    font-size:20px;
+    font-style:normal;
+    font-weight:800;
+    line-height:normal;
+    letter-spacing:8.55px;
+}
+
+.sectionfoure{
+    width:100%;
+    padding:10px;
+}
+
+.img{
+    width:91%;
+    margin:0 auto;
+    display:flex;
+    justify-content:space-between;
+}
+
+.text-div-par{
+    width:91%;
+    margin:0 auto;
+    display:flex;
+    justify-content:space-between;
+}
+
+.text-div{
+    width:275px;
+    margin-left:15px;
+    margin-top:5px;
+}
+
+.sectionfoure-h3text{
+    color:#000;
+    font-family:Plus Jakarta Sans;
+    font-size:25px;
+    font-style:normal;
+    font-weight:400;
+    line-height:normal;
+}
+
+.sectionfoure-h4text{
+    color:#000000;
+    font-size:30px;
+    font-style:normal;
+    font-weight:600;
+    line-height:normal;
+}
+
+.display{
+    display:flex;
+}
+
+.section-five{
+    width:100%;
+    padding:10px;
+}
+
+.paragraf-sectionfive{
+    color:#000;
+    font-family:Plus Jakarta Sans;
+    font-size:30px;
+    font-style:normal;
+    font-weight:800;
+    line-height: normal;
+    letter-spacing:6.75px;
+    padding-left:70px;
+}
+
+.sectionfive-wallpaper{
+    width:92%;
+    margin:0 auto;
+    display:flex;
+    justify-content:space-between;
+}
+
+.brocade{
+    width:568px;
+    height:312px;
+    border-radius:11px;
+    background:linear-gradient(180deg, rgba(0, 0, 0, 0.00) 40.54%, #000 100%);
+    background-image:url("brocade.png");
+    background-size:cover;
+    background-repeat:no-repeat;
+    display:flex;
+    align-items:flex-end;
+}
+
+.chinnamon-chiffon{
+    width:568px;
+    height:312px;
+    border-radius:11px;
+    background:linear-gradient(180deg, rgba(0, 0, 0, 0.00) 40.54%, #000 100%);
+    background-image:url("chinnamon\ chiffon.png");
+    background-size:cover;
+    background-repeat:no-repeat;
+    display:flex;
+    align-items:flex-end;
+    
+}
+
+.cordury{
+    width:568px;
+    height:312px;
+    border-radius:11px;
+    background:linear-gradient(180deg, rgba(0, 0, 0, 0.00) 40.54%, #000 100%);
+    background-image:url("cordury.png");
+    background-size:cover;
+    background-repeat:no-repeat;
+    display:flex;
+    align-items:flex-end;
+    
+}
+
+.sectionfive-h4text{
+    color:#FFF;
+    font-family:Plus Jakarta Sans;
+    font-size:25px;
+    font-style:normal;
+    font-weight:800;
+    line-height:normal;
+    letter-spacing:6.75px;
+    padding-left:20px;
+    padding-bottom:10px;
+}
+
+.footer{
+    width:100%;
+    padding:30px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color:#FFFFFF;
+}
+
+.footer-conteiner{
+    width:95%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.footer-contact{
+    width:54%;
+    min-height:400px;
+    display:flex;
+}
+
+.footer-appstore{
+    width:45%;
+    min-height:400px;
+}
+
+.contact{
+    width:258px;
+}
+
+.footer-paragraf{
+    color: #000;
+    font-family: Plus Jakarta Sans;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.footer-h3text{
+    color:#000000;
+    font-size:20px;
+    font-style:normal;
+    line-height:normal;
+    padding-top:20px;
+}
+
+.footer-contact-par{
+    width:80%;
+}
+
+.footer-items{
+    width:80%;
+    margin-top:50px;
+    display:flex;
+    justify-content:space-between;
+}
+
+.footer-apple-playstore{
+    width:60%;
+    padding:10px;
+    display:flex;
+    justify-content:space-between;
+}
+
+.play-store{
+    padding-left:20px;
+}
